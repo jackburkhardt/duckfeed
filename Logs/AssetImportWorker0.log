@@ -1,0 +1,1373 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'en' Physical Memory: 16129 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+X:/duckfeed
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65196
+Successfully changed project path to: X:/duckfeed
+X:/duckfeed
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path X:/duckfeed/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   30.0.14.9676
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001102 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'IL3DN/Terrain First-Pass': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2851 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3295.
+Total: 3.327100 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.170100 ms MarkObjects: 2.731100 ms  DeleteObjects: 0.131100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/IL3DN/Prefabs/IL3DN_ChangeWalkingSound.prefab
+  artifactKey: Guid(ba93d0b2a7c7d5b48944c7ba0b316e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_ChangeWalkingSound.prefab using Guid(ba93d0b2a7c7d5b48944c7ba0b316e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b04f70f5d9a0a9483a21e10cc8659a') in 0.043696 seconds 
+  Import took 0.048676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/IL3DN/Prefabs
+  artifactKey: Guid(3112231de2c58754ab35406db18b62b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs using Guid(3112231de2c58754ab35406db18b62b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7aef849955b524016fc4de89286f7d') in 0.006685 seconds 
+  Import took 0.010915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/IL3DN/Scenes/TheIllustratedNature_Demo/OcclusionCullingData.asset
+  artifactKey: Guid(f4d2d03cefe3ea74596b6bb30d9cb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Scenes/TheIllustratedNature_Demo/OcclusionCullingData.asset using Guid(f4d2d03cefe3ea74596b6bb30d9cb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f9604b300a9b8f9d173c1353f2102a') in 0.044924 seconds 
+  Import took 0.049438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952a3dec93b0a87a4564a757e62f185a') in 0.010071 seconds 
+  Import took 0.014712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_Post-Processing.prefab
+  artifactKey: Guid(5c8406169669ff440ab2b0ff68392f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_Post-Processing.prefab using Guid(5c8406169669ff440ab2b0ff68392f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c9e73a1d85553c847cf4382ef21716') in 0.010349 seconds 
+  Import took 0.014889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_WaterPlane.prefab
+  artifactKey: Guid(3447961027a93fe4a9e1e1e61716fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_WaterPlane.prefab using Guid(3447961027a93fe4a9e1e1e61716fe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca60736cc706d688d82f098a22e44bc') in 0.207941 seconds 
+  Import took 0.212442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IL3DN/Scenes/TheIllustratedNature_Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(82b5a200ddc86194e8e8c210f434907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Scenes/TheIllustratedNature_Demo/ReflectionProbe-0.exr using Guid(82b5a200ddc86194e8e8c210f434907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0804d8813d594e4688018b8fdc5ea7') in 0.071107 seconds 
+  Import took 0.075586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/IL3DN/Scenes/TheIllustratedNature_Demo
+  artifactKey: Guid(89184341b8c3df749acdd9b2611e59c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Scenes/TheIllustratedNature_Demo using Guid(89184341b8c3df749acdd9b2611e59c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a2cbd6d85c8c983355db21c8979388') in 0.005880 seconds 
+  Import took 0.009764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_Weather.prefab
+  artifactKey: Guid(188c62f1c6f36dd4381381872c8efe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_Weather.prefab using Guid(188c62f1c6f36dd4381381872c8efe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e11c8b2218ad4caf8655e4fbc90eb1') in 0.010575 seconds 
+  Import took 0.014902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_Canvas.prefab
+  artifactKey: Guid(b9041a16145c8bb4f83dba3889f30193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_Canvas.prefab using Guid(b9041a16145c8bb4f83dba3889f30193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6acd3323f8fb39dc95a8147cb39825') in 0.016533 seconds 
+  Import took 0.020307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/IL3DN/Scenes/TheIllustratedNature_Demo/LightingData.asset
+  artifactKey: Guid(c89e43aaf78b2da41b7da2573e9c9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Scenes/TheIllustratedNature_Demo/LightingData.asset using Guid(c89e43aaf78b2da41b7da2573e9c9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e164a066143bf8f004ef61a782eb365') in 0.008791 seconds 
+  Import took 0.012800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/IL3DN/Prefabs/IL3DN_PlayRandomSound.prefab
+  artifactKey: Guid(f9ad0c060ecfb694999a67ccc0021fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Prefabs/IL3DN_PlayRandomSound.prefab using Guid(f9ad0c060ecfb694999a67ccc0021fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a2f970f63d28caaf9cc80d848c2f19') in 0.009083 seconds 
+  Import took 0.013592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.526081 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs
+  artifactKey: Guid(92b3300841b358346b0b04ecffa727d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs using Guid(92b3300841b358346b0b04ecffa727d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d9168cd8690a239e6d8570e6fd315') in 0.002279 seconds 
+  Import took 0.006985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061635 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Clouds.prefab
+  artifactKey: Guid(c462ab8df416e3848b46d913d64a5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Clouds.prefab using Guid(c462ab8df416e3848b46d913d64a5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74449db358387587759d28eb7066e488') in 0.015853 seconds 
+  Import took 0.019939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead.prefab
+  artifactKey: Guid(5e0264dcdb6475142a55bef72dfa33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead.prefab using Guid(5e0264dcdb6475142a55bef72dfa33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fc8cbdf37b9cb81be742d3b7cfac3e') in 0.015018 seconds 
+  Import took 0.019585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead_Card.prefab
+  artifactKey: Guid(7ae3ae1402e4c334db57a187cf7292ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead_Card.prefab using Guid(7ae3ae1402e4c334db57a187cf7292ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2ad34733ecafc538eb12ad0c2526fb') in 0.107722 seconds 
+  Import took 0.112815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_Decal_01.prefab
+  artifactKey: Guid(c02317f60a6a71b4c9e80dbcbdb31637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_Decal_01.prefab using Guid(c02317f60a6a71b4c9e80dbcbdb31637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcce34f7e4c86b608d8c194768c161de') in 0.012913 seconds 
+  Import took 0.016985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_Decal_02.prefab
+  artifactKey: Guid(6247a00f966e021488259c4812abe629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_Decal_02.prefab using Guid(6247a00f966e021488259c4812abe629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138b03e909af02305947aa138eddf4e4') in 0.014632 seconds 
+  Import took 0.019484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead_Card.prefab
+  artifactKey: Guid(69d18334a0bcd77419fbe85004660f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Dead_Card.prefab using Guid(69d18334a0bcd77419fbe85004660f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5668d2e2d53ee3d8a6c3ff5cdaf72d3b') in 0.044299 seconds 
+  Import took 0.050349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead.prefab
+  artifactKey: Guid(c2b12eefb0d661a4b82aca0a16332955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead.prefab using Guid(c2b12eefb0d661a4b82aca0a16332955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb45c861bce8c96392e6d9b79344008e') in 0.015227 seconds 
+  Import took 0.020718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03.prefab
+  artifactKey: Guid(3b1938075b2d08e409d75f1e32cc13a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03.prefab using Guid(3b1938075b2d08e409d75f1e32cc13a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f33bf3ca926343a1470e4e355f801c') in 0.018768 seconds 
+  Import took 0.022963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_01.prefab
+  artifactKey: Guid(9a32147e38101fd48876749fd208348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_01.prefab using Guid(9a32147e38101fd48876749fd208348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f82e2765a78b68de3b681b08b7ecabc') in 0.012939 seconds 
+  Import took 0.017030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Card.prefab
+  artifactKey: Guid(813e381295c1a3344ac238d7729f59b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Card.prefab using Guid(813e381295c1a3344ac238d7729f59b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d642915aa0b68bcb51d36b7bfa18080') in 0.025845 seconds 
+  Import took 0.031029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_OneMesh.prefab
+  artifactKey: Guid(14caed3bc8e39cd4b94a03139af47de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_OneMesh.prefab using Guid(14caed3bc8e39cd4b94a03139af47de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de54a06497170907f0cedc0665a46643') in 0.014370 seconds 
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_02.prefab
+  artifactKey: Guid(a5b864fe7ab693b4ebbfb3e1502aac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_02.prefab using Guid(a5b864fe7ab693b4ebbfb3e1502aac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e54703dcd9b655406cbad4b58df6ed') in 0.013395 seconds 
+  Import took 0.017303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Card.prefab
+  artifactKey: Guid(c9b712af256c4bb4b8ce8b6387f4e2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_Card.prefab using Guid(c9b712af256c4bb4b8ce8b6387f4e2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01803ab73df06425b809d8c2ab2f9699') in 0.025968 seconds 
+  Import took 0.031340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Card.prefab
+  artifactKey: Guid(2a5f5f797b0a3114888a3e9b45d6034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Card.prefab using Guid(2a5f5f797b0a3114888a3e9b45d6034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f981af229802e66ed601c6d28d6345') in 0.036936 seconds 
+  Import took 0.042818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead_Card.prefab
+  artifactKey: Guid(bd2f1187480d8054b92da6df715b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead_Card.prefab using Guid(bd2f1187480d8054b92da6df715b61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9194f132d28702a8a51e82c16623f8e3') in 0.027099 seconds 
+  Import took 0.032789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_OneMesh.prefab
+  artifactKey: Guid(a347c0dbf64bdc24b987537568e83eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_OneMesh.prefab using Guid(a347c0dbf64bdc24b987537568e83eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6153ab8d31c6b637c1a72f70dbf727') in 0.013043 seconds 
+  Import took 0.017340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01_OneMesh.prefab
+  artifactKey: Guid(069eb8b3a4c53d046a8b9c2968477976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01_OneMesh.prefab using Guid(069eb8b3a4c53d046a8b9c2968477976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d679f3a3cf887ebee7ce25ac02b63c') in 0.016034 seconds 
+  Import took 0.020380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_03.prefab
+  artifactKey: Guid(496dfedd0f0106540a032eaa0d0acbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_03.prefab using Guid(496dfedd0f0106540a032eaa0d0acbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74562c5b89198af9e51bf899ee507ffa') in 0.013203 seconds 
+  Import took 0.017244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01.prefab
+  artifactKey: Guid(1bf94060ef0e0a949aac362e611da1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01.prefab using Guid(1bf94060ef0e0a949aac362e611da1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e02f2540a1de7095af9066885d6d971') in 0.013966 seconds 
+  Import took 0.018457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_01.prefab
+  artifactKey: Guid(bd6bdc4b46732c3438542dd00e001bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_01.prefab using Guid(bd6bdc4b46732c3438542dd00e001bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15de60b8b8d1f3174de7314806c40e54') in 0.011840 seconds 
+  Import took 0.016084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead.prefab
+  artifactKey: Guid(020ef7e1303cbe74ca95c3625530e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Dead.prefab using Guid(020ef7e1303cbe74ca95c3625530e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b24e634601ba9966274f5b79a8ffb') in 0.012883 seconds 
+  Import took 0.017053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead.prefab
+  artifactKey: Guid(ac3db08af24fed848a922e464f5a5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead.prefab using Guid(ac3db08af24fed848a922e464f5a5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dde18a772d03d2fe8f93f4cd747130') in 0.013022 seconds 
+  Import took 0.017560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01.prefab
+  artifactKey: Guid(ded7af70b9286904e824a86ca9a76e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01.prefab using Guid(ded7af70b9286904e824a86ca9a76e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70671c158bd5e6ccf911bff3ce9afbce') in 0.015852 seconds 
+  Import took 0.020301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Dead.prefab
+  artifactKey: Guid(f2af40a2a2b06af4d81f95afda67c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Dead.prefab using Guid(f2af40a2a2b06af4d81f95afda67c33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12fab7ce57f11cc4ed8a6bae1f461ae') in 0.014260 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Dead.prefab
+  artifactKey: Guid(e4437cb2546796048aabad5167d5ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Dead.prefab using Guid(e4437cb2546796048aabad5167d5ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadcac3e21552cf5288f13a54af262eb') in 0.013970 seconds 
+  Import took 0.018896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Dead_Card.prefab
+  artifactKey: Guid(c663c714027ff7c449cb53efb69c994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_Dead_Card.prefab using Guid(c663c714027ff7c449cb53efb69c994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7295c421e41ed8e132b74d0e032f392') in 0.027830 seconds 
+  Import took 0.034432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_OneMesh.prefab
+  artifactKey: Guid(9242fe632642e3c41bfe08ea7445b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_OneMesh.prefab using Guid(9242fe632642e3c41bfe08ea7445b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e94dfb30e266e8f63299de4f49e422b') in 0.015212 seconds 
+  Import took 0.020321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_04.prefab
+  artifactKey: Guid(d0eeea320bcc8d64bbbb0f1e3213eab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_04.prefab using Guid(d0eeea320bcc8d64bbbb0f1e3213eab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521f0ae289b9478628823611724597bf') in 0.014952 seconds 
+  Import took 0.019720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01.prefab
+  artifactKey: Guid(6548ac6629184dc4294100441e696972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01.prefab using Guid(6548ac6629184dc4294100441e696972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863f78d00ef7ebf925c89d75a5ee74d2') in 0.020640 seconds 
+  Import took 0.025541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead.prefab
+  artifactKey: Guid(1bd0a972afde5354cb62d6e9695ce480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Dead.prefab using Guid(1bd0a972afde5354cb62d6e9695ce480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d18b71ef9c17b026b947d5853d940a') in 0.014663 seconds 
+  Import took 0.019641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02_Dead.prefab
+  artifactKey: Guid(7e6cb9db4f22db24580949881444951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02_Dead.prefab using Guid(7e6cb9db4f22db24580949881444951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a24fad0eb3e9e58a8d924c4e237bfdf') in 0.015770 seconds 
+  Import took 0.020781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead_Card.prefab
+  artifactKey: Guid(20a8659b46faabd4e9000085735cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead_Card.prefab using Guid(20a8659b46faabd4e9000085735cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefe084aa3e23bf5dbfeb613ab0570d4') in 0.030955 seconds 
+  Import took 0.037233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead_Card.prefab
+  artifactKey: Guid(0b1d18967ebd6944db8946698cc0a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Dead_Card.prefab using Guid(0b1d18967ebd6944db8946698cc0a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38becf9cd7c3a4adab9833381222103f') in 0.029735 seconds 
+  Import took 0.036450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_01.prefab
+  artifactKey: Guid(ae95750e4caabeb47993e78d5c6ba9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_01.prefab using Guid(ae95750e4caabeb47993e78d5c6ba9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a1fb1776c44af26f6dc73577a03283') in 0.015205 seconds 
+  Import took 0.019930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_01.prefab
+  artifactKey: Guid(ab2c917d4ca684e46a7d6f1d7c10371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_01.prefab using Guid(ab2c917d4ca684e46a7d6f1d7c10371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a724e4b919cd476c09feb84178cd32') in 0.014488 seconds 
+  Import took 0.019738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02.prefab
+  artifactKey: Guid(5f1c3cedb6c289f43ab5c03965557bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02.prefab using Guid(5f1c3cedb6c289f43ab5c03965557bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00004edb80d16450b6cddfd541add31') in 0.017767 seconds 
+  Import took 0.022833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_OneMesh.prefab
+  artifactKey: Guid(26f432483ffc21a4883cd03821155414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_01_OneMesh.prefab using Guid(26f432483ffc21a4883cd03821155414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac56264cf82e2f9575b927e82ecc72fe') in 0.016944 seconds 
+  Import took 0.021839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Card.prefab
+  artifactKey: Guid(9c37100679af7f14eaeff9074ad26ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_Card.prefab using Guid(9c37100679af7f14eaeff9074ad26ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb13552500903dd72f159161ed7549') in 0.028605 seconds 
+  Import took 0.034173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_Decal_02.prefab
+  artifactKey: Guid(60ff3660659df5c48bbc3e057c379dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_Decal_02.prefab using Guid(60ff3660659df5c48bbc3e057c379dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcd52aaf90ff09047fbaef98187ad0c') in 0.012479 seconds 
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_OneMesh.prefab
+  artifactKey: Guid(d8014717818101345ae8ffcb0617604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_OneMesh.prefab using Guid(d8014717818101345ae8ffcb0617604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e5f632c7059fd5d139de4c198c72d') in 0.013862 seconds 
+  Import took 0.018106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Card.prefab
+  artifactKey: Guid(e6eea4bb19ac05443b20c866707a2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02_Card.prefab using Guid(e6eea4bb19ac05443b20c866707a2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c179b2d15919b55f80a6d301bf1391a4') in 0.024064 seconds 
+  Import took 0.028838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead_Card.prefab
+  artifactKey: Guid(3d615d08820e10c42a9d4e5ba7d8fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_03_Dead_Card.prefab using Guid(3d615d08820e10c42a9d4e5ba7d8fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163ed73369e21d93e40a34afc9dc834a') in 0.026024 seconds 
+  Import took 0.031372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_OneMesh.prefab
+  artifactKey: Guid(d24b7454a1e976e4c82ff64c1979b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_01_OneMesh.prefab using Guid(d24b7454a1e976e4c82ff64c1979b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83a063ab6be26b2ee20bda6ec2d99d2') in 0.012725 seconds 
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_03.prefab
+  artifactKey: Guid(3ed64830e8f834546a4581c03d58911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_03.prefab using Guid(3ed64830e8f834546a4581c03d58911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1005a58dfa0c8c5fd7501e2ab5b354f') in 0.012518 seconds 
+  Import took 0.016778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03_OneMesh.prefab
+  artifactKey: Guid(55a0c0c312b7cfd4b9c6b8e72d7db10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03_OneMesh.prefab using Guid(55a0c0c312b7cfd4b9c6b8e72d7db10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb99fc59580c80d80c65b47347335b4e') in 0.014429 seconds 
+  Import took 0.019013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Card.prefab
+  artifactKey: Guid(8d28d650a13e0144ebf5166935bc2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Card.prefab using Guid(8d28d650a13e0144ebf5166935bc2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a9d540f971e46755f9733c85d6653c') in 0.025919 seconds 
+  Import took 0.031144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02_OneMesh.prefab
+  artifactKey: Guid(87e99ddde9cc8c44080a2694da58c315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02_OneMesh.prefab using Guid(87e99ddde9cc8c44080a2694da58c315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b820fb9d4189bd96b2f7843889c5fd1') in 0.014464 seconds 
+  Import took 0.018362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01_Dead.prefab
+  artifactKey: Guid(6a5edab1fb8735249bd172847120f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01_Dead.prefab using Guid(6a5edab1fb8735249bd172847120f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026194e71f535c0c739982180dd80cba') in 0.013090 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab
+  artifactKey: Guid(de691dfc4f267f7428befc75c109cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab using Guid(de691dfc4f267f7428befc75c109cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e0638c20bed28da4d6d7d69e611531') in 0.012978 seconds 
+  Import took 0.016846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03_Dead.prefab
+  artifactKey: Guid(396617fe90d3636468790adc62a6da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03_Dead.prefab using Guid(396617fe90d3636468790adc62a6da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2469a0b07f911b482e04cd85194730') in 0.013093 seconds 
+  Import took 0.016946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03.prefab
+  artifactKey: Guid(ec825ab1403985c499b6da0199d9ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03.prefab using Guid(ec825ab1403985c499b6da0199d9ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab08a435ecfc39b6b4263264dc6f281') in 0.013306 seconds 
+  Import took 0.017963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_Decal_01.prefab
+  artifactKey: Guid(a2b64667b281a4d48a42abe67abaec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_Decal_01.prefab using Guid(a2b64667b281a4d48a42abe67abaec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef803c2860f51d21d899517c0775d0b9') in 0.011918 seconds 
+  Import took 0.016042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_WaterLily_01.prefab
+  artifactKey: Guid(19a01fb2ace04f94b98578cbab0c2c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_WaterLily_01.prefab using Guid(19a01fb2ace04f94b98578cbab0c2c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9ebdff21e0fe83ae5d9471cbb29f57') in 0.013908 seconds 
+  Import took 0.017971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_02.prefab
+  artifactKey: Guid(379239c5cb0252f46be27f8cf1da949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_02.prefab using Guid(379239c5cb0252f46be27f8cf1da949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0755b4c4783ccaae6bb35a435892f172') in 0.011652 seconds 
+  Import took 0.015693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02.prefab
+  artifactKey: Guid(769aa2481766ca449b46e1aae467e749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_02.prefab using Guid(769aa2481766ca449b46e1aae467e749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b88c3947b5a86c020663c31d8e758b4') in 0.015137 seconds 
+  Import took 0.019518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_OneMesh.prefab
+  artifactKey: Guid(6f761512e790af341aa62e5ab7aa880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_OneMesh.prefab using Guid(6f761512e790af341aa62e5ab7aa880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590d2cf72b8ea9f2d57d59f728a388e') in 0.014625 seconds 
+  Import took 0.019616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Dead_Card.prefab
+  artifactKey: Guid(f822019e6b5bc0347bd2014f0a63835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Dead_Card.prefab using Guid(f822019e6b5bc0347bd2014f0a63835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60bcf677e23bea9a9e3bb5aabde7ea2') in 0.027181 seconds 
+  Import took 0.032877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_02.prefab
+  artifactKey: Guid(bffc605355d8fbf4a98e4c1131f49760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Flower_02.prefab using Guid(bffc605355d8fbf4a98e4c1131f49760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc3e216416cbf49d05a986cfdad8b53') in 0.012405 seconds 
+  Import took 0.017454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02.prefab
+  artifactKey: Guid(a55852fbf7b94504dadbe2e4d978e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Shrub_Round_02.prefab using Guid(a55852fbf7b94504dadbe2e4d978e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb0506e0af4b60ee06d05d5a64a8a9a') in 0.013376 seconds 
+  Import took 0.018114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Card.prefab
+  artifactKey: Guid(d07511838453f5b439184d1b3533bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Card.prefab using Guid(d07511838453f5b439184d1b3533bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402ed0c9b64e57612662abfc4c240d94') in 0.026920 seconds 
+  Import took 0.032641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead_Card.prefab
+  artifactKey: Guid(60464eff6c9806e4ba90b2e7fb50d98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead_Card.prefab using Guid(60464eff6c9806e4ba90b2e7fb50d98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853bb1f40fe21251313d3f3f31ec8089') in 0.026572 seconds 
+  Import took 0.032485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_02.prefab
+  artifactKey: Guid(f82ec2f7ccf833540947ba343a46f303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Plant_Grass_02.prefab using Guid(f82ec2f7ccf833540947ba343a46f303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505d4af7849f2696027cda1abb4a5f69') in 0.012453 seconds 
+  Import took 0.017353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead.prefab
+  artifactKey: Guid(edbcc531802f732438d8e48163b160bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_02_Dead.prefab using Guid(edbcc531802f732438d8e48163b160bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b09d7e7ccc5dd2f7956cae23a8bd24') in 0.013965 seconds 
+  Import took 0.018033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_OneMesh.prefab
+  artifactKey: Guid(178d017993c740148b8829da619bf9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_03_OneMesh.prefab using Guid(178d017993c740148b8829da619bf9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4fcdc8ca01ac8b2bc19bb5e3fe7ac2') in 0.012942 seconds 
+  Import took 0.017156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead.prefab
+  artifactKey: Guid(5db86999543932843bddf25f7f2ef6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03_Dead.prefab using Guid(5db86999543932843bddf25f7f2ef6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cd17e088af9b3871fe51f6aa2bd17d') in 0.013155 seconds 
+  Import took 0.017577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Card.prefab
+  artifactKey: Guid(929bd8011b27e664fac0630d0e72da5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_Card.prefab using Guid(929bd8011b27e664fac0630d0e72da5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a97b325d70113d396859f52f53b06b') in 0.025132 seconds 
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_GodRays.prefab
+  artifactKey: Guid(bef6de7beed1e58438ce5878560da236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_GodRays.prefab using Guid(bef6de7beed1e58438ce5878560da236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7bdce958214526b1ab2981b478d561') in 0.014757 seconds 
+  Import took 0.019342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Card.prefab
+  artifactKey: Guid(624ab92761bd67943bb460a1cd5a696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02_Card.prefab using Guid(624ab92761bd67943bb460a1cd5a696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a78c56d57d90a29b9d877a25c888212') in 0.028060 seconds 
+  Import took 0.033745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03.prefab
+  artifactKey: Guid(99dc31ac46f4f6845aca2e64e46621eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Birch_03.prefab using Guid(99dc31ac46f4f6845aca2e64e46621eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f3b448b4df64486b540a79c7671fe8') in 0.017527 seconds 
+  Import took 0.022718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01.prefab
+  artifactKey: Guid(b21038d4ed41ccc4c92fe781cced5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_01.prefab using Guid(b21038d4ed41ccc4c92fe781cced5ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f406a34d469cdb9790ee82217ba6d430') in 0.016904 seconds 
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Props_Bridge.prefab
+  artifactKey: Guid(243b668528b94a34bb0d8ed8ee32717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Props_Bridge.prefab using Guid(243b668528b94a34bb0d8ed8ee32717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befb2cbb31eaaf9b61027eb977980ea7') in 0.014475 seconds 
+  Import took 0.019255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02.prefab
+  artifactKey: Guid(e18d5a2b5ddeb1d47bf52e683cce67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_02.prefab using Guid(e18d5a2b5ddeb1d47bf52e683cce67ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d687d0f249c3fb6e410b0ee0e5f9f2') in 0.016808 seconds 
+  Import took 0.021965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_03.prefab
+  artifactKey: Guid(dfe81af08cc57394489d52c5ab1a3316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Rock_Boulder_03.prefab using Guid(dfe81af08cc57394489d52c5ab1a3316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447a7cc54b41e271eda84bdb2cd8d3b1') in 0.014342 seconds 
+  Import took 0.019424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_02.prefab
+  artifactKey: Guid(5c7759ff2ef3a464fa785348ab1a38a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Branch_02.prefab using Guid(5c7759ff2ef3a464fa785348ab1a38a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca5f5d94b9c40883aad4678470c7e2') in 0.014093 seconds 
+  Import took 0.019580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03.prefab
+  artifactKey: Guid(7fb0aec6c60f8c84795881a112ce6495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Beech_03.prefab using Guid(7fb0aec6c60f8c84795881a112ce6495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6a30ef69846e6b8c5b45ba84a1674e') in 0.017768 seconds 
+  Import took 0.023619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_01.prefab
+  artifactKey: Guid(1bd341bc63a86f741b6dc0393f56b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Dead_Leaf_01.prefab using Guid(1bd341bc63a86f741b6dc0393f56b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dbe2e3419493c82b54b614b437eb49') in 0.014401 seconds 
+  Import took 0.019427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007120 seconds.
+  path: Assets/IL3DN/Graphics/Materials
+  artifactKey: Guid(3c075a2bc97d78a44bb81afb449981b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials using Guid(3c075a2bc97d78a44bb81afb449981b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d076a72158236a3f26f8876e59def24') in 0.006398 seconds 
+  Import took 0.010830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113650 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Cards.mat
+  artifactKey: Guid(0007dba6afb45374c88b62d209ed9c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Cards.mat using Guid(0007dba6afb45374c88b62d209ed9c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379fdf21fbd282b07d3e27436ea9479f') in 0.034781 seconds 
+  Import took 0.039853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_03.mat
+  artifactKey: Guid(856a2ac8937804e4e99a804faa0a61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_03.mat using Guid(856a2ac8937804e4e99a804faa0a61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7853d8a5a5bf569d5b683070d52699e') in 0.012027 seconds 
+  Import took 0.016465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_HumanScale.mat
+  artifactKey: Guid(6d27889a730aa6b44a182a2f4d1d2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_HumanScale.mat using Guid(6d27889a730aa6b44a182a2f4d1d2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7328e7bca304e4b8355c9b741b3f64') in 0.011852 seconds 
+  Import took 0.016480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Fog.mat
+  artifactKey: Guid(a873ffaddfff74341869a8207d52a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Fog.mat using Guid(a873ffaddfff74341869a8207d52a7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ccf072441808e3523111f3f36ee39d') in 0.013151 seconds 
+  Import took 0.018345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Bark.mat
+  artifactKey: Guid(d196cda956361f54cb094f4acad1b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Bark.mat using Guid(d196cda956361f54cb094f4acad1b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2db3a920c46f8d3491690a02f4570fb') in 0.011472 seconds 
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dead.mat
+  artifactKey: Guid(098fefc7ca6dc3048baacf21ed822e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dead.mat using Guid(098fefc7ca6dc3048baacf21ed822e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a95b242c92267421854bccf35da0ba') in 0.011769 seconds 
+  Import took 0.016543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_01.mat
+  artifactKey: Guid(51381b84eb87d3d4a8987d5206af840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_01.mat using Guid(51381b84eb87d3d4a8987d5206af840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55b008c2df7e4f61b0a562c920743f1') in 0.012176 seconds 
+  Import took 0.016655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Leaf.mat
+  artifactKey: Guid(49205e5c7b68f364b92a10e9b3e76a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Leaf.mat using Guid(49205e5c7b68f364b92a10e9b3e76a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e90d7108708350d8f42abe2fd026e3a') in 0.011507 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_02.mat
+  artifactKey: Guid(b599d9a28d2afd24ab0a53fd5a5ce3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_02.mat using Guid(b599d9a28d2afd24ab0a53fd5a5ce3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7e9c6f7b365fd85aaf7a2cd3280dff') in 0.007728 seconds 
+  Import took 0.011742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural.mat
+  artifactKey: Guid(221f9488657b1f1498bb5860cf4c5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural.mat using Guid(221f9488657b1f1498bb5860cf4c5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201ca2e6053ec78285c21edebf4831f') in 0.012909 seconds 
+  Import took 0.016934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_01.mat
+  artifactKey: Guid(67e642841af2acc4492399d0ff294789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_01.mat using Guid(67e642841af2acc4492399d0ff294789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a364706f256432144209cc8f81015b87') in 0.007654 seconds 
+  Import took 0.011968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dirt.mat
+  artifactKey: Guid(5ef09237db9c2fb45b2d476d701bd6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Dirt.mat using Guid(5ef09237db9c2fb45b2d476d701bd6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a23a554d996e40c6615980c376f1d5c') in 0.011637 seconds 
+  Import took 0.015524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_02.mat
+  artifactKey: Guid(e3ac01954a8b90b418546e44fa6011b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_02.mat using Guid(e3ac01954a8b90b418546e44fa6011b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c845aec78b3486e04ba428baf065d4af') in 0.011770 seconds 
+  Import took 0.015926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Card.mat
+  artifactKey: Guid(ca7ee364fda965441a1932edbe8c8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Card.mat using Guid(ca7ee364fda965441a1932edbe8c8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b640db0ed6fb763feda3a6030e5f3026') in 0.068939 seconds 
+  Import took 0.074023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Sky.mat
+  artifactKey: Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Sky.mat using Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd78f5903a767f740075f1c26b98e72') in 0.011105 seconds 
+  Import took 0.015452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Cards_Dead.mat
+  artifactKey: Guid(f27de91f3300c014d982d30da0dec873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Cards_Dead.mat using Guid(f27de91f3300c014d982d30da0dec873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefef5ac50cadda7bf138058ef9e7f88') in 0.026957 seconds 
+  Import took 0.032751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat
+  artifactKey: Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat using Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09feacf9b66a67f0a292dc507057c242') in 0.011701 seconds 
+  Import took 0.016078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Bark.mat
+  artifactKey: Guid(1d97d3e66d3177240ae59310c2388d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Bark.mat using Guid(1d97d3e66d3177240ae59310c2388d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961cb60297eec1babe2c709d1ea03e63') in 0.012056 seconds 
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural_Night.mat
+  artifactKey: Guid(ac22932ac7381fd4e9ed4bd20bb55d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural_Night.mat using Guid(ac22932ac7381fd4e9ed4bd20bb55d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53957cbc913d6dcde583670936653559') in 0.012014 seconds 
+  Import took 0.016117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Decals.mat
+  artifactKey: Guid(7c85795173ca94b4182670de288e1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Decals.mat using Guid(7c85795173ca94b4182670de288e1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592d27e07043f720b181a0ded4542f46') in 0.012812 seconds 
+  Import took 0.017075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Rock_Boulder.mat
+  artifactKey: Guid(40a5534813ec1694eb348d8ddbe4ca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Rock_Boulder.mat using Guid(40a5534813ec1694eb348d8ddbe4ca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24ccf4aea6da93026a8316fee14e3a5') in 0.012612 seconds 
+  Import took 0.018085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_LakeFog.mat
+  artifactKey: Guid(d8170f1b26593e34bb7c0fbba356ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_LakeFog.mat using Guid(d8170f1b26593e34bb7c0fbba356ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670976d29b8a10dd612c505fddd06f32') in 0.012484 seconds 
+  Import took 0.017770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Terrain.mat
+  artifactKey: Guid(9dffff67a35fe044da801331236ae2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Terrain.mat using Guid(9dffff67a35fe044da801331236ae2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f49d93a568a45affe389554d11793ff') in 0.011808 seconds 
+  Import took 0.016766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Cards_TwoColors.mat
+  artifactKey: Guid(352a8fcfc907e5f45badd439f38bcf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Cards_TwoColors.mat using Guid(352a8fcfc907e5f45badd439f38bcf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61371be6de18f54f0fe67609b36e3915') in 0.035347 seconds 
+  Import took 0.040537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Card.mat
+  artifactKey: Guid(d2714a991694e134c90f932d51b170dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Card.mat using Guid(d2714a991694e134c90f932d51b170dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de855474a7762df280b32c896e74de1a') in 0.028323 seconds 
+  Import took 0.033197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_WaterLily.mat
+  artifactKey: Guid(3be26af59ef83c14e916aa7874be867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_WaterLily.mat using Guid(3be26af59ef83c14e916aa7874be867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca7bb4ccf5e3235b349bc6097ea0471') in 0.010960 seconds 
+  Import took 0.014908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Leaf.mat
+  artifactKey: Guid(af3d69dd3ab4777479ce92faa440698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Leaf.mat using Guid(af3d69dd3ab4777479ce92faa440698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccd6146e8dad338cf60e0036574b944') in 0.013456 seconds 
+  Import took 0.017543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_FX_Glow.mat
+  artifactKey: Guid(2519c1f835cf63c45a81f4aac87488c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_FX_Glow.mat using Guid(2519c1f835cf63c45a81f4aac87488c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d343d016a484069f41232e626157ab') in 0.013021 seconds 
+  Import took 0.017384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Leaf.mat
+  artifactKey: Guid(4ea518f471fd6ab469a44aef2fe80780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Leaf.mat using Guid(4ea518f471fd6ab469a44aef2fe80780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb697a9bedd6946a17f0a7afdd9fb96') in 0.013012 seconds 
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat
+  artifactKey: Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat using Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f0bf7d2daeed51fd75564834ff87e0') in 0.012742 seconds 
+  Import took 0.017245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Water.mat
+  artifactKey: Guid(9b9fdaaebc85b1241bfb6f555b58ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Water.mat using Guid(9b9fdaaebc85b1241bfb6f555b58ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98901515ff65ed8d25ba7f13307a1a81') in 0.013262 seconds 
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Cloud.mat
+  artifactKey: Guid(93a924b510ed64a488d5faffeefcf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Cloud.mat using Guid(93a924b510ed64a488d5faffeefcf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40812ed84691b1f5f69d8ea4dfe42d2b') in 0.012964 seconds 
+  Import took 0.017534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Leaf.mat
+  artifactKey: Guid(49a047f6fab4c994cb92aa690ba93401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Leaf.mat using Guid(49a047f6fab4c994cb92aa690ba93401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636aeb7a88df3f59b24a2c061288c12b') in 0.013461 seconds 
+  Import took 0.018899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat
+  artifactKey: Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat using Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e41af916e4a3f1454f2568f6d874a') in 0.008844 seconds 
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Card.mat
+  artifactKey: Guid(04810a6b06a830f4caf4824d87ae44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Card.mat using Guid(04810a6b06a830f4caf4824d87ae44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8fa6a6087c5fac6c632ec747d16aac') in 0.031252 seconds 
+  Import took 0.038192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Bark.mat
+  artifactKey: Guid(0cd13747ec1c06b49bea7c9c495a9483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Bark.mat using Guid(0cd13747ec1c06b49bea7c9c495a9483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd9d66a11b8efc05472b94543b77a50') in 0.014743 seconds 
+  Import took 0.019561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Card.mat
+  artifactKey: Guid(3f6920b977ea6b848babb0ed7abe4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Card.mat using Guid(3f6920b977ea6b848babb0ed7abe4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cec8aedfc38cb7110bd8039519efd3') in 0.030069 seconds 
+  Import took 0.035216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Grass.mat
+  artifactKey: Guid(cef2b4aff14b59b469823ac58c967d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Ground_Grass.mat using Guid(cef2b4aff14b59b469823ac58c967d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571fad2aba918f0cb76a652faba2ebd3') in 0.011520 seconds 
+  Import took 0.015709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007389 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Cards.psd
+  artifactKey: Guid(46fa255f11489784a86ff91e1485cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Cards.psd using Guid(46fa255f11489784a86ff91e1485cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2d1cd45d2bc0bb5c1666412657d9f') in 0.028921 seconds 
+  Import took 0.035487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.222982 seconds.
+  path: Assets/IL3DN/Graphics/Textures
+  artifactKey: Guid(c8eff7d2872064546a6defd44b6f2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures using Guid(c8eff7d2872064546a6defd44b6f2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874567a95659da3858ee0cc0268e83c9') in 0.007564 seconds 
+  Import took 0.013107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059031 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Bark_Birch.psd
+  artifactKey: Guid(6d8421fc6c3908f4a9ec1921a0872572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Bark_Birch.psd using Guid(6d8421fc6c3908f4a9ec1921a0872572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d82997fa9ef61833bb0257cf1ed52f') in 0.010897 seconds 
+  Import took 0.015411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Bark_Pine.psd
+  artifactKey: Guid(e632c8e2a28f7e445a58672b91bfd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Bark_Pine.psd using Guid(e632c8e2a28f7e445a58672b91bfd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141468f6c6c1ab1fdf7657c643f2d635') in 0.012037 seconds 
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_02.psd
+  artifactKey: Guid(2038a37a87e1eff4fa5efd69c9d1312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_02.psd using Guid(2038a37a87e1eff4fa5efd69c9d1312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce3937203fdc264fdb9defbd472e96d') in 0.013368 seconds 
+  Import took 0.017906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_01.psd
+  artifactKey: Guid(6ab0f5f5ed2482e43a5ace7eeced19e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_01.psd using Guid(6ab0f5f5ed2482e43a5ace7eeced19e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68916881edb6fdf776a04ea9daa565ba') in 0.013999 seconds 
+  Import took 0.018522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Cloud.psd
+  artifactKey: Guid(1adc77130775a854aa241d2531c4c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Cloud.psd using Guid(1adc77130775a854aa241d2531c4c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336435447873917344090461814a6ea6') in 0.012396 seconds 
+  Import took 0.017070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Pine_01.psd
+  artifactKey: Guid(f6ca14d1b28767248b6da146831632a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Pine_01.psd using Guid(f6ca14d1b28767248b6da146831632a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eccb161cd4dd0851481ffadd7606e69') in 0.014594 seconds 
+  Import took 0.019390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_GroundSprites.psd
+  artifactKey: Guid(7354d0ba027e23c4e91f1a0fe8c644d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_GroundSprites.psd using Guid(7354d0ba027e23c4e91f1a0fe8c644d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad25d498d39948d0f89995fb5498490') in 0.012951 seconds 
+  Import took 0.018686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_02.psd
+  artifactKey: Guid(60e1c0ade03583e409cd4d7e6b5995fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_02.psd using Guid(60e1c0ade03583e409cd4d7e6b5995fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e91daf007b2a0b7ab7aafbfb2d87e5') in 0.012758 seconds 
+  Import took 0.017479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_03.psd
+  artifactKey: Guid(3ab525614e685014da4ff51a15e353f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_03.psd using Guid(3ab525614e685014da4ff51a15e353f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34265604ae8b4f12d834f4f28459fb2') in 0.012934 seconds 
+  Import took 0.018183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_04.psd
+  artifactKey: Guid(8ee0d49a0c0a08240ac783af3a7be31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_04.psd using Guid(8ee0d49a0c0a08240ac783af3a7be31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7c01d397b14d3793992c1ec61e7f9d') in 0.013576 seconds 
+  Import took 0.017537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_FX_GradientLinear.psd
+  artifactKey: Guid(bb4b4370dcb8aa24a9ecb8aee5ce9648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_FX_GradientLinear.psd using Guid(bb4b4370dcb8aa24a9ecb8aee5ce9648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe562b1e4a5be14018604f483f3c2bcb') in 0.015086 seconds 
+  Import took 0.019225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_03.psd
+  artifactKey: Guid(f0138d7c83fe3474287bec057e360c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_03.psd using Guid(f0138d7c83fe3474287bec057e360c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96fa27790e6ab72e7f650b471f0003b') in 0.012567 seconds 
+  Import took 0.017167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_01.psd
+  artifactKey: Guid(a73c218e0d8156240a793d22710686d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_01.psd using Guid(a73c218e0d8156240a793d22710686d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d2b4007fa1084ea84e0bbe8d55a048') in 0.013974 seconds 
+  Import took 0.018345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Terrain_Dirt_01.psd
+  artifactKey: Guid(132f17bcc3c0640468ecc232569b04f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Terrain_Dirt_01.psd using Guid(132f17bcc3c0640468ecc232569b04f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd380bb7aefe5b5441431f9e33712d') in 0.013185 seconds 
+  Import took 0.017264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Terrain_Grass_01.psd
+  artifactKey: Guid(2c5e04507b62a3048bd4711b36d9032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Terrain_Grass_01.psd using Guid(2c5e04507b62a3048bd4711b36d9032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f19e73f45679d9a3ab47355c64bb265') in 0.013070 seconds 
+  Import took 0.017712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_FX_WhiteDot.psd
+  artifactKey: Guid(40131a4b3361ba6449fdbea34bf52d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_FX_WhiteDot.psd using Guid(40131a4b3361ba6449fdbea34bf52d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af0fe63eea9aa3457bdceca63a3b7a8') in 0.013473 seconds 
+  Import took 0.017765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_WaterNormal.psd
+  artifactKey: Guid(76738900a2dcf084990de478555ec33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_WaterNormal.psd using Guid(76738900a2dcf084990de478555ec33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eef7f764bced987240a1aa86aab4565') in 0.013943 seconds 
+  Import took 0.019485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Petal_02.psd
+  artifactKey: Guid(2da6fe53f02e06843b63af00699b6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Petal_02.psd using Guid(2da6fe53f02e06843b63af00699b6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d827152804fe0cc689f89b08c7293f') in 0.012450 seconds 
+  Import took 0.017880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_WindNoise.psd
+  artifactKey: Guid(e5055e0d246bd1047bdb28057a93753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_WindNoise.psd using Guid(e5055e0d246bd1047bdb28057a93753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db8e1385a57d025092ff5a86cd74a59') in 0.013185 seconds 
+  Import took 0.017980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_04.psd
+  artifactKey: Guid(6a07cf648585dd74193df791c8cba78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Leaf_04.psd using Guid(6a07cf648585dd74193df791c8cba78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0c18b89dbbab0566648675444fb873') in 0.012196 seconds 
+  Import took 0.016627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_FX_GradientRadial.psd
+  artifactKey: Guid(f28423396372f574b88e3b41854652e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_FX_GradientRadial.psd using Guid(f28423396372f574b88e3b41854652e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80669488b40bd95c908dc450d8d648da') in 0.013349 seconds 
+  Import took 0.017461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Petal_01.psd
+  artifactKey: Guid(70b706d8f2de2dc42891234a863b5b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Petal_01.psd using Guid(70b706d8f2de2dc42891234a863b5b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27941df88d075e85d06a2fd1d69eb4b') in 0.012687 seconds 
+  Import took 0.016968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_FX_WhiteCircle.psd
+  artifactKey: Guid(3ddd243e1874b204f94bdc807169539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_FX_WhiteCircle.psd using Guid(3ddd243e1874b204f94bdc807169539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb611407a5b9ee40b60b6c0ed91ea13e') in 0.011427 seconds 
+  Import took 0.015872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Rock.psd
+  artifactKey: Guid(73f9ff498af5bfb48bb4614c1957e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Rock.psd using Guid(73f9ff498af5bfb48bb4614c1957e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce6b78e2ce59094b500fb0b54e54207') in 0.011478 seconds 
+  Import took 0.015776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.719580 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.006865 seconds 
+  Import took 0.011374 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
