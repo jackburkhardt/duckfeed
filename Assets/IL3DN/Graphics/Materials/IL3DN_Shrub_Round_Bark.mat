@@ -51,6 +51,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -84,6 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _AmbientOcclusion: 0.5
     - _Bend: 1
     - _BumpScale: 1
@@ -118,8 +123,6 @@ Material:
     - _SquashAmount: 1
     - _SrcBlend: 1
     - _Strenght: 0.5
-    - _SwingAmount: 0.1
-    - _SwingSpeed: 0.2
     - _TranslucencyViewDependency: 0.7
     - _UVSec: 0
     - _UseSpeedTreeWind: 0
@@ -136,7 +139,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
-    - _Color: {r: 0.5943396, g: 0.3767291, b: 0.288759, a: 1}
+    - _Color: {r: 0.5943396, g: 0.37672913, b: 0.28875902, a: 1}
     - _CurveSphereTip: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
     - _HueVariation: {r: 1, g: 1, b: 1, a: 0.1}
