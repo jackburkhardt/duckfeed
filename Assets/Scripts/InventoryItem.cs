@@ -6,11 +6,17 @@ public class InventoryItem : MonoBehaviour
 {
     // ID number for inventory objects, starting at 0
     [SerializeField] private int id;
+    
     // Name of object (for display)
     [SerializeField] private string name;
+    
     // Description of object (for display)
     [SerializeField] private string description;
-    [SerializeField] private Sprite inventoryIcon; 
+    
+    // Sprite for use in the inventory menu
+    [SerializeField] private Sprite inventoryIcon;
+    
+    // Prefab for the object this is attached to
     [SerializeField] private Object prefab;
     
     public int ID

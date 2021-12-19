@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
+    // is the player currently holding an object?
     public bool isHolding;
+    
+    // the object being held (if any)
     public GameObject heldObject;
+    
     [SerializeField] private Crosshair Crosshair;
     [SerializeField] private Inventory Inventory;
     
@@ -24,9 +28,13 @@ public class Hand : MonoBehaviour
             if (Crosshair.IsInteracting() && !isHolding)
             {
                PickUp(Crosshair.HitObject()); 
+            } else if (Crosshair.IsInteracting() && isHolding)
+            {
+               PutDown(heldObject);
+               PickUp(Crosshair.HitObject());
             } else if (isHolding)
             {
-               PutDown(Crosshair.HitObject()); 
+                PutDown(heldObject);
             }
         }
 
@@ -35,9 +43,14 @@ public class Hand : MonoBehaviour
             Debug.Log(heldObject);
             Inventory.Store(heldObject.GetComponent<InventoryItem>());
             Destroy(heldObject);
+            isHolding = false;
         }
     }
     
+    /// <summary>
+    /// Puts the selected item into the player's hand.
+    /// </summary>
+    /// <param name="item">The GameObject to be picked up.</param>
     public void PickUp(GameObject item)
     {
         Debug.Log("picked up");
@@ -55,6 +68,10 @@ public class Hand : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Throws an object out of the player's hand.
+    /// </summary>
+    /// <param name="item">The GameObject to be removed.</param>
     public void PutDown(GameObject item)
     {
         Debug.Log("put down");
