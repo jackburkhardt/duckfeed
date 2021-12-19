@@ -7,6 +7,7 @@ public class Hand : MonoBehaviour
     private bool isHolding;
     private GameObject heldObject;
     [SerializeField] private Crosshair Crosshair;
+    [SerializeField] private Inventory Inventory;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,13 @@ public class Hand : MonoBehaviour
             {
                PutDown(Crosshair.HitObject()); 
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && isHolding)
+        {
+            Debug.Log(heldObject);
+            Inventory.Store(heldObject.GetComponent<InventoryItem>());
+            Destroy(heldObject);
         }
     }
     
