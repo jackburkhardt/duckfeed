@@ -14,8 +14,10 @@ public class Inventory : MonoBehaviour
     [SerializeField] private int capacity;
     [SerializeField] private List<InventoryItem> inventoryList;
     private bool full;
-    private Dictionary<int, object> itemPrefabMap = new Dictionary<int, object>();
+    private Dictionary<int, Object> itemPrefabMap = new Dictionary<int, Object>();
     [SerializeField] private Canvas canvas;
+    [SerializeField] private Canvas UI;
+    [SerializeField] private Hand Hand;
 
     [Header("Inventory menu")]
     [SerializeField] private Object iconPrefab;
@@ -87,7 +89,7 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-    public (bool, object) Remove(InventoryItem item)
+    public (bool, Object) Remove(InventoryItem item)
     {
         if (size == 0 || !inventoryList.Contains(item)) return (false, null);
         size--;
@@ -95,12 +97,19 @@ public class Inventory : MonoBehaviour
 
         inventoryList.Remove(item);
         capacityText.text = "Used space: " + size + " / " + capacity;
+
+        if (size == 0)
+        {
+            currentlySelectedName.text = "EMPTY";
+            currentlySelectedDesc.text = "Go pick up some stuff, then come back here.";
+            CloseInventory();
+        }
         return (true, item.Prefab);
     }
     
-    public (bool, object) Remove(int id)
+    public (bool, Object) Remove(int id)
     {
-        if (size == 0 || !itemPrefabMap.TryGetValue(id, out object obj)) return (false, null);
+        if (size == 0 || !itemPrefabMap.TryGetValue(id, out Object obj)) return (false, null);
         size--;
         if (full) full = false;
 
@@ -116,8 +125,11 @@ public class Inventory : MonoBehaviour
     public void OpenInventory()
     {
         canvas.enabled = true;
+        UI.enabled = false;
         Time.timeScale = 0;
         var currX = 960;
+        capacityText.text = "Used space: " + size + " / " + capacity;
+        
         foreach (var item in inventoryList)
         {
             GameObject icon = Instantiate(iconPrefab, new Vector3(currX, 640, 0), Quaternion.identity, canvas.transform) as GameObject;
@@ -127,14 +139,15 @@ public class Inventory : MonoBehaviour
             currX += spacing;
         }
 
-        currentlySelectedName.text = currentlySelected.Name;
-        currentlySelectedDesc.text = currentlySelected.Description;
+        currentlySelectedName.text = size == 0 ? "EMPTY" : currentlySelected.Name;
+        currentlySelectedDesc.text = size == 0 ? "Go pick up some stuff, then come back here." : currentlySelected.Description;
         currentlySelectedIndex = 0;
     }
 
     public void CloseInventory()
     {
         canvas.enabled = false;
+        UI.enabled = true;
         Time.timeScale = 1;
 
         foreach (var icon in inventoryIcons)
@@ -166,5 +179,19 @@ public class Inventory : MonoBehaviour
         currentlySelectedDesc.text = currentlySelected.Description;
 
         return true;
+    }
+
+    public void RemoveToHand(InventoryItem item)
+    {
+        if (Hand.isHolding) Hand.PutDown(Hand.heldObject);
+        (bool success, var prefab) = Remove(item);
+        if (!success)
+        {
+            Debug.LogError("An error occured while trying to remove the item from inventory.");
+            return;
+        }
+        
+        Hand.PickUp(Instantiate(prefab) as GameObject);
+        
     }
 }

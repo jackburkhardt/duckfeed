@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
-    private bool isHolding;
-    private GameObject heldObject;
+    public bool isHolding;
+    public GameObject heldObject;
     [SerializeField] private Crosshair Crosshair;
     [SerializeField] private Inventory Inventory;
     
@@ -38,7 +38,7 @@ public class Hand : MonoBehaviour
         }
     }
     
-    void PickUp(GameObject item)
+    public void PickUp(GameObject item)
     {
         Debug.Log("picked up");
         heldObject = item;
@@ -55,7 +55,7 @@ public class Hand : MonoBehaviour
         }
     }
 
-    void PutDown(GameObject item)
+    public void PutDown(GameObject item)
     {
         Debug.Log("put down");
         if (item.GetComponent<Rigidbody>())
