@@ -8,7 +8,7 @@ public class InventoryItem : MonoBehaviour
     [SerializeField] private int id;
     
     // Name of object (for display)
-    [SerializeField] private string name;
+    [SerializeField] private new string name;
     
     // Description of object (for display)
     [SerializeField] private string description;

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Hand : MonoBehaviour
@@ -58,11 +59,11 @@ public class Hand : MonoBehaviour
         isHolding = true;
         item.transform.parent = this.transform;
         item.transform.position = this.transform.position;
+        item.transform.rotation = Quaternion.identity;
         if (item.GetComponent<Rigidbody>())
         {
             Rigidbody itemRB = item.GetComponent<Rigidbody>();
             itemRB.useGravity = false;
-            itemRB.rotation = this.transform.rotation;
             itemRB.constraints = RigidbodyConstraints.FreezePosition;
             itemRB.freezeRotation = true;
         }

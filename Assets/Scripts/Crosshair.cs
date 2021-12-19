@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,14 +6,34 @@ using UnityEngine.UI;
 
 public class Crosshair : MonoBehaviour
 {
-    [SerializeField] private Sprite defaultCrosshair;
-    [SerializeField] private Sprite interactCrosshair;
+    private Dictionary<InteractionMode, Sprite> crosshairList;
     [SerializeField] private Image crosshair;
     private RaycastHit hitData;
     private bool interacting = false;
     private GameObject hitObject;
     [SerializeField] private LayerMask mask;
     // Start is called before the first frame update
+    
+    // Crosshairs
+    [SerializeField] private Sprite c_default;
+    [SerializeField] private Sprite c_warn;
+    [SerializeField] private Sprite c_locked;
+    [SerializeField] private Sprite c_examine;
+    [SerializeField] private Sprite c_pickup;
+    
+
+    private void Awake()
+    {
+        crosshairList = new Dictionary<InteractionMode, Sprite>()
+        {
+            {InteractionMode.None, c_default},
+            {InteractionMode.Warn, c_warn},
+            {InteractionMode.Locked, c_locked},
+            {InteractionMode.Examine, c_examine},
+            {InteractionMode.Pickup, c_pickup}
+        };
+    }
+
     void Start()
     {
     }
@@ -28,20 +49,23 @@ public class Crosshair : MonoBehaviour
             Debug.Log("raycast hit!0");
             interacting = true;
             hitObject = hitData.collider.gameObject;
-            ReplaceCrosshair();
-            hitObject.GetComponent<Outline>().enabled = true;
+            var outline = hitObject.GetComponent<Outline>();
+            outline.enabled = true;
+            ReplaceCrosshair(outline.InteractionMode);
         } else if (!hit && interacting)
         {
             interacting = false;
-            
             hitObject.GetComponent<Outline>().enabled = false;
-            ReplaceCrosshair();
+            ReplaceCrosshair(InteractionMode.None);
         }
     }
 
-    void ReplaceCrosshair()
+    void ReplaceCrosshair(InteractionMode mode)
     {
-        crosshair.sprite = interacting ? interactCrosshair : defaultCrosshair;
+        if (crosshairList.TryGetValue(mode, out Sprite sprite))
+        {
+            crosshair.sprite = sprite;
+        }
     }
 
     public bool IsInteracting()

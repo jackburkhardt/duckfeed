@@ -80,6 +80,8 @@ public class Outline : MonoBehaviour {
 
   private bool needsUpdate;
 
+  [SerializeField] public InteractionMode InteractionMode;
+  
   void Awake() {
 
     // Cache renderers
