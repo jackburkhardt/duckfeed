@@ -19,3 +19,12 @@ This is a Unity project that serves as a kitchen sink where I design, build, and
   * Potentially: seperate software tool for visualizing and editing conversation nodes
 * **A skills and perks system**
   * Mainly created to supplement the dialog options above; implementation is not final
+
+# Modification and use
+While these systems do work in their individual contexts, they are not yet drop-n-go into any game and likely lack many features that a full game would desire. This project is mainly my place to mess around with stuff, and as such I cannot guarantee stability, quality, or support for anything provided here.
+
+That being said, feel free to do whatever you want with this. Just make sure you use Unity version 2020.3.24f1 and credit me if this code eventually makes it somewhere.
+
+# Gallery
+
+Forthcoming
