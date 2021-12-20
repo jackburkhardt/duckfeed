@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DialogueSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,9 +12,10 @@ public class Crosshair : MonoBehaviour
     private RaycastHit hitData;
     private bool interacting = false;
     private GameObject hitObject;
-    [SerializeField] private LayerMask mask;
-    // Start is called before the first frame update
     
+    // layermask for the raycast
+    [SerializeField] private LayerMask mask;
+
     // Crosshairs
     [SerializeField] private Sprite c_default;
     [SerializeField] private Sprite c_warn;
@@ -24,6 +26,7 @@ public class Crosshair : MonoBehaviour
 
     private void Awake()
     {
+        // associates each interaction type with a specified crosshair
         crosshairList = new Dictionary<InteractionMode, Sprite>()
         {
             {InteractionMode.None, c_default},

@@ -28,13 +28,16 @@ public class Hand : MonoBehaviour
             Debug.Log("E!");
             if (Crosshair.IsInteracting() && !isHolding)
             {
+                // if something selected and nothing in hand, pick up item
                PickUp(Crosshair.HitObject()); 
             } else if (Crosshair.IsInteracting() && isHolding)
             {
+                // if something in hand but player wants to pick up, swap items
                PutDown(heldObject);
                PickUp(Crosshair.HitObject());
             } else if (isHolding)
             {
+                // if something in hand and nothing selected, drop item
                 PutDown(heldObject);
             }
         }
@@ -57,6 +60,7 @@ public class Hand : MonoBehaviour
         Debug.Log("picked up");
         heldObject = item;
         isHolding = true;
+        // does a bunch of stuff to "freeze" the object
         item.transform.parent = this.transform;
         item.transform.position = this.transform.position;
         item.transform.rotation = Quaternion.identity;
@@ -76,6 +80,7 @@ public class Hand : MonoBehaviour
     public void PutDown(GameObject item)
     {
         Debug.Log("put down");
+        // undoes the rigidbody restrictions
         if (item.GetComponent<Rigidbody>())
         {
             Rigidbody itemRB = item.GetComponent<Rigidbody>();
