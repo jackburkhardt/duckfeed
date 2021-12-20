@@ -1,7 +1,7 @@
 QuickOutline
 ============
 
-Developed by Chris Nolet (c) 2018
+Developed by Chris Nolet (c) 2018 -- Modified by Jack Burkhardt for use with interaction system
 
 
 Instructions
